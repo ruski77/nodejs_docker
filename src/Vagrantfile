@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |config|
+  config.vm.define "app" do |v|
+    v.vm.provider "docker" do |d|
+      d.build_dir     = "."
+      d.ports     = ["8080:8080"]
+      d.vagrant_vagrantfile = "./Vagrantfile.proxy"
+    end
+
+  end
+end

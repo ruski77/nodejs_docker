@@ -1,0 +1,10 @@
+{
+  "name": "docker-nodejs",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello world app on UbuntuS using Docker",
+  "author": "russelladcock@skedulo.com",
+  "dependencies": {
+    "express": "*"
+  }
+}
