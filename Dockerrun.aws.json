@@ -1,0 +1,23 @@
+{
+
+    "AWSEBDockerrunVersion": "1",
+
+    "Authentication": {
+
+        "Bucket": "skedulo-nodejs",
+
+        "Key": "dockercfg"
+
+    },
+
+    "Ports": [
+
+        {
+
+            "ContainerPort": "8080"
+
+        }
+
+    ]
+
+}
